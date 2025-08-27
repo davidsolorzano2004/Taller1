@@ -2,7 +2,7 @@
 
 SensorTemp sensor(34, 3.3, 4095);
 const int ledPin = 2;
-unsigned long lastReadTime = 0;
+unsigned long lastReadTime = 0; // linea feliz
 const long readInterval = 2000;  // 2 segundos
 
 void setup() {
